@@ -29,10 +29,12 @@ We first clean the data set by removing all the null data.
 We calculate the correlation between any two factors.
 Then we calculate total number of games played by each team and find the winner of each game.
 
+The winner of each game is used for regression purpose.
+
 # Part 2: Regression
 
-We add three additional factors for regression. They are the winner indicator, difference between post match ratings of the two teams,
-and product of probabilities.
+To better leverage the data set,
+we add three additional factors for regression. They are the winner indicator, difference between post match ratings of the two teams, and product of probabilities.
 
-We come up with two different models. one is the random forest and the other is linear regression. We found that the linear regression model can substantially enhance the performance.
+We come up with two different models. one is the random forest and the other is linear regression. We found that the linear regression model can substantially enhance the performance. 
 
